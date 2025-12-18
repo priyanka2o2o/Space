@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: url("image.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+canvas {
+  display: block;
+}
+
+#gameOver {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+#gameOver button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
